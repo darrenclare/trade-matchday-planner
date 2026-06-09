@@ -1,1 +1,16 @@
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 40'><rect x='0' y='0' width='60' height='40' fill='#007a4d'/><polygon points='0,0 30,20 0,40' fill='#000'/><polygon points='0,5 23,20 0,35' fill='#ffb612'/><rect x='24' y='0' width='36' height='14' fill='#de3831'/><rect x='24' y='26' width='36' height='14' fill='#002395'/><polygon points='16,0 41,20 16,40' fill='#fff'/><polygon points='20,4 39,20 20,36' fill='#007a4d'/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40">
+  <!-- Red top band -->
+  <rect width="60" height="13.5" fill="#DE3831"/>
+  <!-- Blue bottom band -->
+  <rect y="26.5" width="60" height="13.5" fill="#001489"/>
+  <!-- Green middle band -->
+  <rect y="13.5" width="60" height="13" fill="#007A4D"/>
+  <!-- White chevron (outer) -->
+  <polygon points="0,0 0,40 30,20" fill="#FFFFFF"/>
+  <!-- Yellow chevron (middle) -->
+  <polygon points="0,3 0,37 26,20" fill="#FFB612"/>
+  <!-- Black triangle -->
+  <polygon points="0,7 0,33 20,20" fill="#000000"/>
+  <!-- Green chevron (inner, over black) -->
+  <polygon points="0,10.5 0,29.5 17,20" fill="#007A4D"/>
+</svg>
